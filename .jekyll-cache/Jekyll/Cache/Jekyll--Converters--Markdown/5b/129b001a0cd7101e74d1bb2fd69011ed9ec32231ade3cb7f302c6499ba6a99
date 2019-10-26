@@ -1,7 +1,4 @@
-I"�<p>지난 10월 18일 코엑스에서 열린 2019 애자일 코리아 컨퍼런스에 다녀왔다. 다양한 분야에서 일하고 계신 분들의 애자일 조직으로 변화하는 과정에서 겪은 경험담을 들으며 글로만 배웠던 애자일이 SW 개발론을 넘어 기업문화 속에 어떻게 적용되고 있는지 느낄 수 있었다.</p>
-
-<p>이전글 바로가기
-link: <a href="http://localhost:4000/blog/soft skill/2019_Korea_agile_conference_1_n">http://localhost:4000/blog/soft skill/2019_Korea_agile_conference_1_n</a></p>
+I"P<p>지난 10월 18일 코엑스에서 열린 2019 애자일 코리아 컨퍼런스에 다녀왔다. 다양한 분야에서 일하고 계신 분들의 애자일 조직으로 변화하는 과정에서 겪은 경험담을 들으며 글로만 배웠던 애자일이 SW 개발론을 넘어 기업문화 속에 어떻게 적용되고 있는지 느낄 수 있었다.</p>
 
 <hr />
 <h2 id="애자일-개발-조직으로-변화-도전과-성과-삼성의료기기_김효박성남">애자일 개발 조직으로 변화, 도전과 성과 (삼성의료기기_김효&amp;박성남)</h2>
@@ -36,8 +33,13 @@ link: <a href="http://localhost:4000/blog/soft skill/2019_Korea_agile_conference
 
 <p>애자일 도입의 방법으로 Shift Left Testing 기법을 적용하였다.</p>
 
-<p><img src="shift-left-testing-1-c0fde6ae-a49f-433d-ad67-c74492fe144d.jpg" alt="" />
-https://www.techarcis.com/shifting-toward-shift-left-testing/</p>
+<figure class="">
+  <img src="/assets/images/softskill/shift-left-testing-1.jpg" alt="this is a placeholder image" />
+  
+    <figcaption>
+      출처: https://www.techarcis.com/shifting-toward-shift-left-testing/
+
+    </figcaption></figure>
 
 <p>Shift Left로 얻는 장점은</p>
 
