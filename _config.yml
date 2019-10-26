@@ -22,7 +22,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "한경엽 / Han Kyung Yeop"
 description              : "Learn, Share, Growth"
 url                      : "https://kyhan-91.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/logo_face.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -254,7 +254,7 @@ whitelist:
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
-  path: /categories/
+  path: [/categories/, /softskill/]
 tag_archive:
   type: liquid
   path: /tags/
@@ -278,7 +278,12 @@ compress_html:
   ignore:
     envs: development
 
-
+# Collections:
+collections:
+  softskill:
+    output: true
+    permalink: /:collection/:path/
+#
 # Defaults
 defaults:
   # _posts
@@ -292,7 +297,7 @@ defaults:
       comments: # true
       share: true
       related: true
-      # _pages
+  # _pages
   - scope:
       path: ""
       type: pages
@@ -303,3 +308,11 @@ defaults:
       comments: false
       share: true
       related: false
+  - scope:
+      path: ""
+      type: softskill
+    values:
+      layout: single
+      author_profile: true
+      share: true
+    

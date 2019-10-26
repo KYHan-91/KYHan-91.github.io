@@ -1,4 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-20T22:42:05+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yeop’s development life blog </title><subtitle>Learn, Share, Growth</subtitle><author><name>Yeop</name></author><entry><title type="html">2019 애자일 코리아 참가 후기 (1/2)</title><link href="http://localhost:4000/soft%20skill/_2019_Korea_agile_conference_1_2/" rel="alternate" type="text/html" title="2019 애자일 코리아 참가 후기 (1/2)" /><published>2019-10-20T00:00:00+09:00</published><updated>2019-10-20T00:00:00+09:00</updated><id>http://localhost:4000/soft%20skill/_2019_Korea_agile_conference_1_2</id><content type="html" xml:base="http://localhost:4000/soft%20skill/_2019_Korea_agile_conference_1_2/">&lt;p&gt;지난 10월 18일 코엑스에서 열린 2019 애자일 코리아 컨퍼런스에 다녀왔다. 다양한 분야에서 일하고 계신 분들의 애자일 조직으로 변화하는 과정에서 겪은 경험담을 들으며 글로만 배웠던 애자일이 SW 개발론을 넘어 기업문화 속에 어떻게 적용되고 있는지 느낄 수 있었다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2019-10-26T19:39:03+09:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Yeop’s development life blog </title><subtitle>Learn, Share, Growth</subtitle><author><name>Yeop</name></author><entry><title type="html">2019 애자일 코리아 참가 후기 (2/n)</title><link href="http://localhost:4000/blog/soft%20skill/2019_Korea_agile_conference_2_n/" rel="alternate" type="text/html" title="2019 애자일 코리아 참가 후기 (2/n)" /><published>2019-10-26T00:00:00+09:00</published><updated>2019-10-26T00:00:00+09:00</updated><id>http://localhost:4000/blog/soft%20skill/2019_Korea_agile_conference_2_n</id><content type="html" xml:base="http://localhost:4000/blog/soft%20skill/2019_Korea_agile_conference_2_n/">&lt;p&gt;지난 10월 18일 코엑스에서 열린 2019 애자일 코리아 컨퍼런스에 다녀왔다. 다양한 분야에서 일하고 계신 분들의 애자일 조직으로 변화하는 과정에서 겪은 경험담을 들으며 글로만 배웠던 애자일이 SW 개발론을 넘어 기업문화 속에 어떻게 적용되고 있는지 느낄 수 있었다.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;애자일-개발-조직으로-변화-도전과-성과-삼성의료기기_김효박성남&quot;&gt;애자일 개발 조직으로 변화, 도전과 성과 (삼성의료기기_김효&amp;amp;박성남)&lt;/h2&gt;
+
+&lt;p&gt;특이했던 점은 시작부터 술자리에서 선배가 해주는 말처럼 편하지만 뼈가 있는 실패담을 말씀해주셨던 세션이였다.&lt;/p&gt;
+
+&lt;h3 id=&quot;why&quot;&gt;Why&lt;/h3&gt;
+
+&lt;p&gt;가격이 높고 유지보수 기간이 긴축에 속하는 의료기기의 SW는 Flexible, Scalable을 만족하며, 신뢰성이 중요한 소프트웨어이다. 따라서 의료기기의 소프트웨어 개발은 많은 사람이 협력해야 하는 일이며, 개발 기간이 비교적 길다. 소프트웨어의 개발 과정은 표준(ISO/IEC)를 준수해야 국가별 인허가를 만족하여야 하기 때문 Waterfall 모델을 적용하는게 가장 수월하다.&lt;/p&gt;
+
+&lt;p&gt;하지만 의료기기의 주 고객인 병원 측에서 제공하는 의료서비스의 정확성과 효율 향상을 위한 Digital Transform이 일어남에 따라 의료기기의 소프트웨어 개발도 변화가 필요함을 느끼게 되었다. &lt;strong&gt;높은 품질은 양보하지 않으면서&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;지속적인 개발 규모의 증가,&lt;/li&gt;
+  &lt;li&gt;협력과 협업 대상의 확대,&lt;/li&gt;
+  &lt;li&gt;사용자 환경의 변화 가속,&lt;/li&gt;
+  &lt;li&gt;빠른 기능 확장의 요구 증가,&lt;/li&gt;
+  &lt;li&gt;빠른 상품화의 요구 증가&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;에 대응하기 위해 애자일 개발 조직으로의 변화에 도전하였다.&lt;/p&gt;
+
+&lt;h3 id=&quot;challenge&quot;&gt;Challenge&lt;/h3&gt;
+
+&lt;p&gt;애자일 조직으로의 첫 걸음은 개발자들 끼리의 &lt;strong&gt;Daily Scrum&lt;/strong&gt;을 진행하면서 시작되었다. 매일 아침 15~30분 정도의 짧은 미팅으로 정보의 공유가 원할해져 더 나은 품질의 SW 개발을 위한 &lt;strong&gt;Sprint&lt;/strong&gt; 활동도 추가로 진행하였다. 이후 Sprint 리뷰어를 추가해나가는 과정을 거쳤다.&lt;/p&gt;
+
+&lt;p&gt;Sprint 리뷰어가 확대되어 가면서 애자일 적용에 어려움이 나타났고 욕심이였음을 깨달았다. 전통적인 방식의 개발 문화로부터 나오는 피드백들은 &lt;strong&gt;‘무계획으로 개발하는 것 아니냐’, ‘Formal한 테스트 문서는 없나’ 등 부정적인 의견&lt;/strong&gt;이 대다수였기 때문이다. 애자일 조직으로의 변화가 실패한 경험을 겪게 되면서 애자일 적용을 위한 숨고르기에 들어갔다.&lt;/p&gt;
+
+&lt;p&gt;먼저 &lt;strong&gt;개인의 Mindset과 조직의 Agility 향상&lt;/strong&gt;이 필요했는데, 구성원, 팀대팀의 신뢰를 쌓아나갔다. 서로의 생각이 일치하는가에 대한 공감대를 형성하였고, &lt;strong&gt;정보공유, 고객중심, 가치중심&lt;/strong&gt;의 Mindsets을 설정하였다. 그리고 협업을 위한 절차와 인프라 개선/효율화를 진행하였고, 이 과정에서 git과 같은 소스관리 툴을 적용하였다.&lt;/p&gt;
+
+&lt;p&gt;숨고르기를 통해 다시 한 번 애자일의 도전하게 되었다. 과거의 분위기는 ‘개발을 하자’였다면 현재는 ‘SW의 품질을 높이자’로 변화하였다.&lt;/p&gt;
+
+&lt;p&gt;애자일 도입의 방법으로 Shift Left Testing 기법을 적용하였다.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/blog/assets/images/softskill/shift-left-testing-1.jpg&quot; alt=&quot;this is a placeholder image&quot; /&gt;
+  
+    &lt;figcaption&gt;
+      출처: https://www.techarcis.com/shifting-toward-shift-left-testing/
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Shift Left로 얻는 장점은&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Early Detection&lt;/li&gt;
+  &lt;li&gt;Cost Effectiveness&lt;/li&gt;
+  &lt;li&gt;TIME Saving&lt;/li&gt;
+  &lt;li&gt;Release Smooth&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;등이 있다.&lt;/p&gt;
+
+&lt;p&gt;Shift left 기법을 적용하기 위해서 Cross functional team으로 구성된 구성원들이 요구사항 분석과 설계단계부터 참여하고 있다. 이를 통해 단방향의 대화 채널이 다방향 채널로 변화하는 효과를 보게되었다.&lt;/p&gt;
+
+&lt;h3 id=&quot;suggestion&quot;&gt;Suggestion&lt;/h3&gt;
+
+&lt;p&gt;갖은 조직을 애자일 개발 조직으로 변화는 도전을 해온 경험으로 스피커 분들은 몇가지 제언을 해주셨다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;문화와 방법에 도전하라.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;애자일은 그냥 하면 &lt;strong&gt;도구&lt;/strong&gt;로 남는다. 조직의 문화를 바꾸는 것에 도전하고, 다양한 방법에 도전하라.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;당연하게도 우리는 서로 다르다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;소통을 해야한다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;이심전심은 없다&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;기다려주는것, 시간이 필요하다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Mindset은 학습이나 강요로 만들어지는 것이 아니기 때문에 시간이 필요하다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;내가 먼저 바뀌어야 우리가 바뀐다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;그리고, 문화가 바뀐다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;우리가 바뀌기 위해선 신뢰해야한다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;방향이 맞다면 기다려야 한다&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;협업해라.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;도움을 요청하고 주는 문화를 만들어라.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;고민하지 말라.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;고민하고 있다면.. &lt;strong&gt;시도하라!&lt;/strong&gt;&lt;/p&gt;</content><author><name>User</name></author><category term="Soft Skill" /><category term="Conference" /><category term="agile" /><summary type="html">지난 10월 18일 코엑스에서 열린 2019 애자일 코리아 컨퍼런스에 다녀왔다. 다양한 분야에서 일하고 계신 분들의 애자일 조직으로 변화하는 과정에서 겪은 경험담을 들으며 글로만 배웠던 애자일이 SW 개발론을 넘어 기업문화 속에 어떻게 적용되고 있는지 느낄 수 있었다.</summary></entry><entry><title type="html">2019 애자일 코리아 참가 후기 (1/n)</title><link href="http://localhost:4000/blog/soft%20skill/2019_Korea_agile_conference_1_n/" rel="alternate" type="text/html" title="2019 애자일 코리아 참가 후기 (1/n)" /><published>2019-10-20T00:00:00+09:00</published><updated>2019-10-20T00:00:00+09:00</updated><id>http://localhost:4000/blog/soft%20skill/2019_Korea_agile_conference_1_n</id><content type="html" xml:base="http://localhost:4000/blog/soft%20skill/2019_Korea_agile_conference_1_n/">&lt;p&gt;지난 10월 18일 코엑스에서 열린 2019 애자일 코리아 컨퍼런스에 다녀왔다. 다양한 분야에서 일하고 계신 분들의 애자일 조직으로 변화하는 과정에서 겪은 경험담을 들으며 글로만 배웠던 애자일이 SW 개발론을 넘어 기업문화 속에 어떻게 적용되고 있는지 느낄 수 있었다.&lt;/p&gt;
+
+&lt;nav class=&quot;nav__list&quot;&gt;
+  
+  &lt;input id=&quot;ac-toc&quot; name=&quot;accordion-toc&quot; type=&quot;checkbox&quot; /&gt;
+  &lt;label for=&quot;ac-toc&quot;&gt;Toggle menu&lt;/label&gt;
+  &lt;ul class=&quot;nav__items&quot;&gt;
+    
+      &lt;li&gt;
+        
+          
+          
+
+          &lt;a href=&quot;/blog/softskill-archive/&quot;&gt;&lt;span class=&quot;nav__sub-title&quot;&gt;2019 Agile Conference 관련 글 목록&lt;/span&gt;&lt;/a&gt;
+        
+
+        
+      &lt;/li&gt;
+    
+  &lt;/ul&gt;
+&lt;/nav&gt;
 
 &lt;hr /&gt;
 
@@ -167,6 +275,6 @@ OKR의 진척사항을 논의하고, 목표 달성의 장애물을 논의하며,
 
 &lt;p&gt;다음 글에서는 아직 다루지 못한 세션에 대한 후기와 컨퍼런스 후기를 적어볼까 합니다.&lt;/p&gt;
 
-&lt;p&gt;읽어주셔서 감사합니다!&lt;/p&gt;</content><author><name>User</name></author><category term="Soft Skill" /><category term="Conference" /><category term="agile" /><summary type="html">지난 10월 18일 코엑스에서 열린 2019 애자일 코리아 컨퍼런스에 다녀왔다. 다양한 분야에서 일하고 계신 분들의 애자일 조직으로 변화하는 과정에서 겪은 경험담을 들으며 글로만 배웠던 애자일이 SW 개발론을 넘어 기업문화 속에 어떻게 적용되고 있는지 느낄 수 있었다.</summary></entry><entry><title type="html">Blog 첫글 테스트</title><link href="http://localhost:4000/category/new-post/" rel="alternate" type="text/html" title="Blog 첫글 테스트" /><published>2019-10-18T00:00:00+09:00</published><updated>2019-10-18T00:00:00+09:00</updated><id>http://localhost:4000/category/new-post</id><content type="html" xml:base="http://localhost:4000/category/new-post/">&lt;p&gt;블로그 첫글 테스트 입니닷.&lt;/p&gt;
+&lt;p&gt;읽어주셔서 감사합니다!&lt;/p&gt;</content><author><name>User</name></author><category term="Soft Skill" /><category term="Conference" /><category term="agile" /><summary type="html">지난 10월 18일 코엑스에서 열린 2019 애자일 코리아 컨퍼런스에 다녀왔다. 다양한 분야에서 일하고 계신 분들의 애자일 조직으로 변화하는 과정에서 겪은 경험담을 들으며 글로만 배웠던 애자일이 SW 개발론을 넘어 기업문화 속에 어떻게 적용되고 있는지 느낄 수 있었다.</summary></entry><entry><title type="html">Blog 첫글 테스트</title><link href="http://localhost:4000/blog/category/new-post/" rel="alternate" type="text/html" title="Blog 첫글 테스트" /><published>2019-10-18T00:00:00+09:00</published><updated>2019-10-18T00:00:00+09:00</updated><id>http://localhost:4000/blog/category/new-post</id><content type="html" xml:base="http://localhost:4000/blog/category/new-post/">&lt;p&gt;블로그 첫글 테스트 입니닷.&lt;/p&gt;
 
 &lt;p&gt;이글의 제목은 Blog 첫글 테스트, 수정 시간은  입니다.&lt;/p&gt;</content><author><name>User</name></author><category term="Category" /><category term="tag1" /><category term="tag2" /><summary type="html">블로그 첫글 테스트 입니닷.</summary></entry></feed>

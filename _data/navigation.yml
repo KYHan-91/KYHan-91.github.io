@@ -9,6 +9,10 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
+2019_agile_conf:
+  - title: "2019 Agile Conference 관련 글 목록"
+    url: /softskill-archive/
+
 # sidebar navigation list sample
 sidebar-sample:
   - title: "Robotics & Autonomous Driving"

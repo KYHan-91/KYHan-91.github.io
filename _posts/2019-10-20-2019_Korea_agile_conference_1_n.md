@@ -1,15 +1,14 @@
 ---
-title: 2019 애자일 코리아 참가 후기 (1/2)
+title: 2019 애자일 코리아 참가 후기 (1/n)
 category: Soft Skill
 author: User
 tags: [Conference, agile]
-sidebar:
-  title: "Sample Title"
-  nav: sidebar-sample
-summary: Summary of the article
+#summary: Summary of the article
 ---
 
 지난 10월 18일 코엑스에서 열린 2019 애자일 코리아 컨퍼런스에 다녀왔다. 다양한 분야에서 일하고 계신 분들의 애자일 조직으로 변화하는 과정에서 겪은 경험담을 들으며 글로만 배웠던 애자일이 SW 개발론을 넘어 기업문화 속에 어떻게 적용되고 있는지 느낄 수 있었다.
+
+{% include nav_list nav="2019_agile_conf" %}
 
 ---
 
